@@ -70,8 +70,12 @@ export function BuyBtn(){
 	<Button variant="primary"
 	onClick={async ()=>{
 		const buyBtn = new ethers.Contract(address, abi, signer);
-		await buyBtn.create(cuenta);
+	const x=	await buyBtn.create(cuenta);
+	console.log(x)
+		console.log("Transaction: "+"https://rinkeby.etherscan.io/tx/"+ x.hash)
+		document.getElementById("txHash").innerHTML = "Transaction: "+ x.hash
 	}}
 	>Buy now</Button>
+	<p id="txHash"></p>
 	</>)
 }
