@@ -1,13 +1,13 @@
-import {InputdeleteDataContract, DeleteIdButtonContract, InputNameDescrip, TituloPaginaNftDrive, ChooseFile, TesterFactor, Connectmetamask, ContractInput, ReadContract, WriteContract} from "../components/NftDriveComponent"
+import {InputdeleteDataContract, DeleteIdButtonContract, InputNameDescrip, TituloPaginaNftDrive, ChooseFile, Connectmetamask, ContractInput, ReadContract, WriteContract} from "../components/NftDriveComponent"
 
 //bootstrap
-import { Button } from 'react-bootstrap';
+//import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../styles.css'
-import React, { useState } from "react";
+//import React, { useState } from "react";
 //import {TesterComponent, TesterFactor, StoreFile} from "../components/TesterComponent"
 
 //<Container>
@@ -23,9 +23,9 @@ import React, { useState } from "react";
 
 
 export function NftDrive(){
-	return(<>
+	return(<div className="NftDrivePage">
 	
-	<Container className="NftDrivePage">
+	<Container >
       <Row>
 	  
         < Col sm={12} md={12} lg={12} xl={12}>
@@ -48,5 +48,5 @@ export function NftDrive(){
 </Container>
 	
 	
-	</>)
+	</div>)
 }

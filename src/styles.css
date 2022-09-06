@@ -44,6 +44,8 @@ padding: 20px 10px; line-height: 28px;
 }
 .NftDrivePage{
 	text-align: center;
+	background-color: white;
+	color: black;
 }
 .MetamaskBtn{
 	text-align: left;
@@ -57,4 +59,10 @@ padding: 20px 10px; line-height: 28px;
 }
 #dataBorrar{
 	width:30px;
+}
+.home{
+	text-align: center;
+}
+.nftDriveImgHome{
+	width: 350px;
 }
